@@ -118,6 +118,7 @@ background: transparent;
 scroll-snap-align: start;
 flex-shrink: 0;
 width: 24vw;
+min-width: 200px;
 height: 48vh;
 margin-right: 50px;
 border-radius: 10px;
