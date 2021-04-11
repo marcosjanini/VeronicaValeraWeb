@@ -3,25 +3,49 @@ body {
     height: 100%;
     margin: 0;
     color: white;
-    font-family: 'Roboto Condensed', sans-serif;}
-
-h1 {
-
-    font-size: 6vh;
-    padding-top: 2.5%;
-    padding-bottom: 2.5%;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
-h2 {
+@media only screen and (max-width: 600px) {
+    h1 {
 
-    font-size: 6vh;
-    text-align: right;
-    margin-right: 5%;
+        font-size: 5.5vh;
+        padding-top: 2.5%;
+        padding-bottom: 2.5%;
+    }
+
+    h2 {
+
+        font-size: 5.5vh;
+        text-align: right;
+        margin-right: 5%;
+    }
+
+    h3 {
+
+        font-size: 16px;
+    }
 }
 
-h3 {
+@media only screen and (min-width: 600px) {
+    h1 {
 
-    font-size: 1vw;
+        font-size: 6vh;
+        padding-top: 2.5%;
+        padding-bottom: 2.5%;
+    }
+
+    h2 {
+
+        font-size: 6vh;
+        text-align: right;
+        margin-right: 5%;
+    }
+
+    h3 {
+
+        font-size: (16px + 0.5vw);
+    }
 }
 
 hr {
@@ -60,26 +84,9 @@ a.link2:active {
 
 }
 
-.item1 {
-    grid-area: header;
-    margin-left: 5%;
-
-}
-
-.item2 {
-    grid-area: main;
-    margin-left: 5%;
-
-}
-
-.item3 {
-    grid-area: footer;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-}
+.item1 { grid-area: header; }
+.item2 { grid-area: main; }
+.item3 { grid-area: footer; }
 
 
 .grid-container {
@@ -89,21 +96,24 @@ a.link2:active {
         'main main main main main main'
         'footer footer footer footer footer footer';
     grid-template-columns: 20% 10% 20%;
-    grid-gap: 5px;
-    padding: 20px;
+    grid-gap: 0px;
 }
 
 .grid-container>header {
     text-align: right;
-    padding: 20px 20px;
+    margin-left: 5%;
 }
 
 .grid-container>main {
-    padding: 20px 20px;
+    margin-left: 5%;
 
 }
 
 .grid-container>footer {
-    padding: 20px 20px;
-
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: #DFDFDF;
 }
