@@ -34,7 +34,7 @@ p {
     .slides>div {
       scroll-snap-align: start;
       flex-shrink: 0;
-     width: 48vw;
+     width: 70vw;
     height: 48vh;
       margin-right: 50px;
       border-radius: 10px;
