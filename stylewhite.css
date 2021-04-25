@@ -1,3 +1,8 @@
+html{
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
 body {
   background: white;
   color: black;
@@ -5,6 +10,19 @@ body {
   height: 100%;
   margin-left: auto;
   margin-right: auto;
+  box-sizing: border-box;
+}
+
+span.a {
+  display: inline;
+  width: 49%;
+}
+span.b {
+  display: inline;
+  width: 49%;
+  text-align: right;
+  float: right;
+
 }
 
 /* mobile */
@@ -60,6 +78,7 @@ body {
     height: auto;
     position: sticky;
   }
+  .fotoleft:hover {filter: grayscale(80%);}
 
 }
 
@@ -115,6 +134,7 @@ body {
     height: 100%;
     position: sticky;
   }
+  .fotoleft:hover {filter: grayscale(80%);}
 
 }
 
@@ -292,21 +312,21 @@ ul.acordeon > li:hover {
   width: 55%;
 }
 
-/*flexbox for portfolio*/
+/*flexbox*/
 
-.flex-portfoliocontainer {
+.flex-container {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
 }
 
-.flex-portfolioitem1 {
+.flex-item1 {
   width: 33%;
   flex-grow: 4;
   align-items: center;
   padding: 0.1em;
 }
-.flex-portfolioitem2 {
+.flex-item2 {
   width: 66%;
   flex-grow: 4;
   align-items: center;
