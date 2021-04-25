@@ -24,6 +24,11 @@ span.b {
   float: right;
 
 }
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.2em;
+}
 
 /* mobile */
 
@@ -79,6 +84,12 @@ span.b {
     position: sticky;
   }
   .fotoleft:hover {filter: grayscale(80%);}
+  
+  .flex-item1, .flex-item2 {
+    flex: 100%;
+    align-items: center;
+    padding: 0.1em;
+  }
 
 }
 
@@ -135,6 +146,20 @@ span.b {
     position: sticky;
   }
   .fotoleft:hover {filter: grayscale(80%);}
+
+  
+  .flex-item1 {
+    width: 33%;
+    flex-grow: 4;
+    align-items: center;
+    padding: 0.1em;
+  }
+  .flex-item2 {
+    width: 66%;
+    flex-grow: 4;
+    align-items: center;
+    padding: 0.1em;
+  }
 
 }
 
@@ -311,8 +336,6 @@ ul.acordeon:hover > li {
 ul.acordeon > li:hover {
   width: 55%;
 }
-
-/*flexbox*/
 
 .flex-container {
   display: flex;
