@@ -16,12 +16,12 @@ body {
 
 span.a {
   display: inline;
-  width: 49%;
+  width: 66%;
 }
 
 span.b {
   display: inline;
-  width: 49%;
+  width: 33%;
   text-align: right;
   float: right;
 
@@ -89,6 +89,20 @@ a.link2:active {
   background: white;
 }
 
+h2 {
+
+  margin-right: 5%;
+}
+
+h4 {
+
+  font-size: 2.5vw;
+  color: grey;
+  display: inline;
+
+}
+
+
 /* flexbox */
 
 .flex-container {
@@ -116,11 +130,28 @@ a.link2:active {
   margin-right: 0.12em;
 }
 
+.textportfolio{
+position: absolute;
+margin-top: 7.5em;
+margin-left: 0.5em;
+margin-bottom: 0.5em;
+width:25%;
+flex: 0 0 auto;
+background-color: rgba(189, 189, 189, 0.8);
+}
+
+.textportfolio>p {
+color: rgb(37, 37, 37);
+font-weight: bold;
+text-shadow: -0.03em 0.03em 0.01em whitesmoke;
+
+  }
+
 
 
 /* mobile version */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
   h1 {
 
     font-size: 5.5vh;
@@ -131,7 +162,6 @@ a.link2:active {
   h2 {
 
     font-size: 5.5vh;
-    margin-right: 5%;
   }
 
   h3 {
@@ -168,7 +198,7 @@ a.link2:active {
     padding: 0.1vw;
     float: left;
     width: 100%;
-    height: auto;
+    height: 100%;
     position: sticky;
   }
 
@@ -190,6 +220,13 @@ a.link2:active {
     margin-bottom: 1em;
   }
 
+  .textportfolio{
+
+    width:75%;
+    margin-top: 9em;
+
+  }
+
 }
 
 /* tablets and desktop */
@@ -205,7 +242,6 @@ a.link2:active {
   h2 {
 
     font-size: 6vh;
-    margin-right: 5%;
   }
 
   h3 {
