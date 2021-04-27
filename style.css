@@ -11,14 +11,14 @@ body {
 @media only screen and (max-width: 600px) {
     h1 {
 
-        font-size: 5.5vh;
+        font-size: 5vh;
         padding-top: 2.5%;
         padding-bottom: 2.5%;
     }
 
     h2 {
 
-        font-size: 5.5vh;
+        font-size: 5vh;
         text-align: right;
         margin-right: 5%;
     }

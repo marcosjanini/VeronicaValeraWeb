@@ -154,14 +154,14 @@ text-shadow: -0.03em 0.03em 0.01em whitesmoke;
 @media only screen and (max-width: 650px) {
   h1 {
 
-    font-size: 5.5vh;
+    font-size: 5vh;
     padding-top: 2.5%;
     padding-bottom: 2.5%;
   }
 
   h2 {
 
-    font-size: 5.5vh;
+    font-size: 5vh;
   }
 
   h3 {
