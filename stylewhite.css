@@ -94,6 +94,10 @@ h2 {
   margin-right: 5%;
 }
 
+h3 {
+
+text-align: center;}
+
 h4 {
 
   font-size: 2.5vw;
@@ -102,8 +106,14 @@ h4 {
 
 }
 
+h5 {
+  font-size: 5vh;
+  margin-top: 0;
+
+}
+
 .fotoleft {
-  padding: 0.1vw;
+  padding: 0;
   float: left;
   width: 100%;
   position: sticky;
@@ -112,11 +122,16 @@ h4 {
 
 .fotoleft:hover {
   filter: grayscale(80%);
-  -ms-transform: scale(1.02); 
+  -ms-transform: scale(1.02);
   -webkit-transform: scale(1.02);
-  transform: scale(1.02); 
+  transform: scale(1.02);
 }
 
+figcaption {
+  color: white;
+  background-color: #FF5733;
+  text-align: center;
+}
 
 /* flexbox */
 
@@ -125,6 +140,7 @@ h4 {
   flex-wrap: wrap;
   padding: 0.2em;
 }
+
 .flex-container2 {
   display: flex;
   flex-flow: row wrap;
@@ -145,22 +161,22 @@ h4 {
   margin-right: 0.12em;
 }
 
-.textportfolio{
-position: absolute;
-margin-top: 7.5em;
-margin-left: 0.5em;
-margin-bottom: 0.5em;
-width:25%;
-flex: 0 0 auto;
-background-color: rgba(189, 189, 189, 0.8);
+.textportfolio {
+  position: absolute;
+  margin-top: 7.5em;
+  margin-left: 0.5em;
+  margin-bottom: 0.5em;
+  width: 25%;
+  flex: 0 0 auto;
+  background-color: rgba(189, 189, 189, 0.8);
 }
 
 .textportfolio>p {
-color: rgb(37, 37, 37);
-font-weight: bold;
-text-shadow: -0.03em 0.03em 0.01em whitesmoke;
+  color: rgb(37, 37, 37);
+  font-weight: bold;
+  text-shadow: -0.03em 0.03em 0.01em whitesmoke;
 
-  }
+}
 
 
 
@@ -224,9 +240,9 @@ text-shadow: -0.03em 0.03em 0.01em whitesmoke;
     margin-bottom: 1em;
   }
 
-  .textportfolio{
+  .textportfolio {
 
-    width:75%;
+    width: 75%;
     margin-top: 9em;
 
   }
