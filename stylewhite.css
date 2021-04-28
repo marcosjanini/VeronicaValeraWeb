@@ -12,6 +12,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
+  scrollbar-color: #FF5733;
+
 }
 
 span.a {
@@ -197,7 +199,7 @@ figcaption {
 
   h3 {
 
-    font-size: calc(16px + 0.1vw);
+    font-size: calc(15px + 0.1vw);
   }
 
   p {
@@ -266,7 +268,7 @@ figcaption {
 
   h3 {
 
-    font-size: calc(16px + 0.2vw);
+    font-size: calc(15px + 0.2vw);
   }
 
   p {
